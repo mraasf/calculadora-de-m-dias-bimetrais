@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>calculo de media </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="paging.css"/>
+
+<div id = "area">  
+        <br>
+        <label>Aluno: <input type="text" name="tAluno" id="tAluno"> </label>
+        <br><br><label><strong>Insira as notas:</strong></label><br>
+        <br><label>1º Bimestre </label><input type="number" name="n01" id="n01"> </label>
+        <br><label>2º Bimestre </label><input type="number" name="n02" id="n02"> </label>
+        <br><label>3º Bimestre </label><input type="number" name="n03" id="n03"> </label>
+        <br><label>4º Bimestre </label><input type="number" name="n04" id="n04"> </label>
+    
+    <div id="btn" >
+        <button onclick="somar()">salvar </button>
+        <button onclick="exibir()">estatísticas </button>
+        <button onclick="relatorio()">relatório </button>
+    </div>
+
+
+<div id = "saida">
+ <p type = "text-Area" id= "txtAlunos"></p>
+ <p id= "txtMedia"></p>   
+ <p id= "txtEstat"></p>  
+</div>    
+</div>
+
+
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+</body>
+</html>
